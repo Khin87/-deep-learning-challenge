@@ -19,7 +19,7 @@ I preprocessed the data by:
 The resulting data included 44 features. The target variable (y) was IS_SUCCESSFUL. The data was split into training and test subsets.
 
 COMPILING, TRAINING, AND EVALUATING THE MODEL
-The model was required to achieve a target predictive accuracy higher than 75%. I made three official attempts using machine learning and neural networks. They all resulted in the same accuracy rate – right around 72%, so a little short of the required target accuracy.
+The model was required to achieve a target predictive accuracy higher than 75%. I made two official attempts using machine learning and neural networks. They all resulted in the same accuracy rate – right around 72%, so a little short of the required target accuracy.
 
 Results from each model attempt are detailed below:
 
@@ -41,7 +41,7 @@ Model 1 Accuracy Plot
 
 #### ATTEMPT 2
 
-For my second attempt (Models/AlphabetSoupCharity_Optimisation.h5) I added another layer. This attempt resulted in an accuracy score of 72.54%. This means that 72.54% of the model’s predicted values align with the dataset’s true values.
+For my second attempt (Models/AlphabetSoupCharity_Optimisation.h5) I added another layers. This attempt resulted in an accuracy score of 72.54%. This means that 72.54% of the model’s predicted values align with the dataset’s true values.
 
 The hyperparameters used were:
 
