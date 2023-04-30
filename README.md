@@ -28,12 +28,13 @@ The first attempt (Models/AlphabetSoupCharity1.h5) resulted in an accuracy score
 
 The hyperparameters used were:
 
-layers = 2
-layer1 = 9 neurons : activation function = ‘relu’
-layer2 = 18 neurons : activation function = ‘relu'
-epochs = 100
+* layers = 2
+  ** layer1 = 9 neurons : activation function = ‘relu’
+  ** layer2 = 18 neurons : activation function = ‘relu'
+* epochs = 100
 
 Model 1 Accuracy Plot
+
 ![Screenshot (43)](https://user-images.githubusercontent.com/118086355/235359993-5483afbb-4417-425b-a97d-8dc617da89bf.png)
 
 
@@ -42,14 +43,15 @@ For my second attempt (Models/AlphabetSoupCharity_Optimisation.h5) I added anoth
 
 The hyperparameters used were:
 
-layers = 4
-layer1 = 9 neurons : activation function = ‘relu’
-layer2 = 18 neurons : activation function = ‘relu’
-layer3 = 27 neurons : activation function = ‘relu’
-layer4 = 36 neurons : activation function = ‘relu’
-epochs = 100
+* layers = 4
+  ** layer1 = 9 neurons : activation function = ‘relu’
+  ** layer2 = 18 neurons : activation function = ‘relu’
+  ** layer3 = 27 neurons : activation function = ‘relu’
+  ** layer4 = 36 neurons : activation function = ‘relu’
+* epochs = 100
 
 Model 2 Accuracy Plot
+
 ![Screenshot (44)](https://user-images.githubusercontent.com/118086355/235360912-1b41c7af-b125-41c4-ba9c-1340f6159210.png)
 
 
