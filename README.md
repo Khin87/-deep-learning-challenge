@@ -23,7 +23,8 @@ The model was required to achieve a target predictive accuracy higher than 75%. 
 
 Results from each model attempt are detailed below:
 
-ATTEMPT 1
+#### ATTEMPT 1
+
 The first attempt (Models/AlphabetSoupCharity1.h5) resulted in an accuracy score of 72.64%. This was the highest accuracy score of the two models. This means that 72.64% of the model’s predicted values align with the dataset’s true values.
 
 The hyperparameters used were:
@@ -38,7 +39,8 @@ Model 1 Accuracy Plot
 ![Screenshot (43)](https://user-images.githubusercontent.com/118086355/235359993-5483afbb-4417-425b-a97d-8dc617da89bf.png)
 
 
-ATTEMPT 2
+#### ATTEMPT 2
+
 For my second attempt (Models/AlphabetSoupCharity_Optimisation.h5) I added another layer. This attempt resulted in an accuracy score of 72.54%. This means that 72.54% of the model’s predicted values align with the dataset’s true values.
 
 The hyperparameters used were:
