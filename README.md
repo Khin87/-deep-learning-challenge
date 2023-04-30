@@ -1,19 +1,20 @@
-# deep-learning-challenge
+# Deep Learning Report
 
 ## Overview
 
 The goal of this project is to create an algorithm using machine learning and neural networks to predict whether applicants will be successful if funded by the fictional non-profit foundation, Alphabet Soup.
 
-PREPROCESSING
+*PREPROCESSING
+
 I preprocessed the data by:
 
-  ** dropping non-beneficial columns,
-  ** finding the number of data points for each unique value for each of the columns that had more than 10 unique values - APPLICATION_TYPE and CLASSIFICATION,
-  ** choosing a cutoff point of 600 and 300, respectively, to bin rare categorical values together into a new value called "Other",
-  ** using pd.get_dummies() to convert categorical data to numeric,
-  ** dividing the data into a target array (IS_SUCCESSFUL) and features arrays,
-  ** applying the train_test_split to create a testing and a training dataset,
-  ** and finally, using StandardScaler to scale the training and testing sets
+  **dropping non-beneficial columns,
+  **finding the number of data points for each unique value for each of the columns that had more than 10 unique values - APPLICATION_TYPE and CLASSIFICATION,
+  **choosing a cutoff point of 600 and 300, respectively, to bin rare categorical values together into a new value called "Other",
+  **using pd.get_dummies() to convert categorical data to numeric,
+  **dividing the data into a target array (IS_SUCCESSFUL) and features arrays,
+  **applying the train_test_split to create a testing and a training dataset,
+  **and finally, using StandardScaler to scale the training and testing sets
 
 The resulting data included 44 features. The target variable (y) was IS_SUCCESSFUL. The data was split into training and test subsets.
 
