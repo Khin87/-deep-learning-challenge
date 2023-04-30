@@ -29,8 +29,8 @@ The first attempt (Models/AlphabetSoupCharity1.h5) resulted in an accuracy score
 The hyperparameters used were:
 
 * layers = 2
-    ** layer1 = 9 neurons : activation function = ‘relu’
- ** layer2 = 18 neurons : activation function = ‘relu'
+  * layer1 = 9 neurons : activation function = ‘relu’
+  * layer2 = 18 neurons : activation function = ‘relu'
 * epochs = 100
 
 Model 1 Accuracy Plot
